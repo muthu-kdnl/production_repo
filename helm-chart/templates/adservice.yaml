@@ -21,7 +21,7 @@ metadata:
   namespace: {{.Release.Namespace}}
   {{- if not .Values.serviceAccounts.annotationsOnlyForCartservice }}
   {{- with .Values.serviceAccounts.annotations }}
-  annotations:
+  annotations: 
     {{- toYaml . | nindent 4 }}
   {{- end }}
   {{- end }}

@@ -2627,7 +2627,7 @@ server:
     # -- Gateway API parentRefs for the HTTPRoute
     ## Must reference an existing Gateway
     # @default -- `[]` (See [values.yaml])
-    parentRefs:
+    parentRefs: 
       - name: app-alb-gateway
         namespace: default
         sectionName: https

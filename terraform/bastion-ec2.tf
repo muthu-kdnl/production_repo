@@ -68,5 +68,5 @@ module "bastion_host" {
     Environment = "dev"
     Role        = "bastion"
   }
-}
+} 
 
