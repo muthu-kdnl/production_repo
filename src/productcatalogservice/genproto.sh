@@ -14,6 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
 # [START gke_productcatalogservice_genproto]
 
 PATH=$PATH:$(go env GOPATH)/bin
