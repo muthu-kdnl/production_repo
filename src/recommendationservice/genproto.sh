@@ -17,7 +17,6 @@
 # [START gke_recommendationservice_genproto]
 
 # script to compile python protos
-#
 # requires gRPC tools:
 #   pip install -r requirements.txt
 
