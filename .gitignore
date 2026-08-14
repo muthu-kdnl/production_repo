@@ -30,3 +30,4 @@ vendor/
 .terraform
 bastion_ini_set.sh
 cloudfare.sh
+arogcd.sh
